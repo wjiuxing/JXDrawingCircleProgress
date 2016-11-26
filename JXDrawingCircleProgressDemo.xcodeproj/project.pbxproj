@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3E951CC1DE9327C001CA150 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E951CB1DE9327C001CA150 /* main.m */; };
+		A3E951CF1DE9327C001CA150 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E951CE1DE9327C001CA150 /* AppDelegate.m */; };
+		A3E951D21DE9327C001CA150 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E951D11DE9327C001CA150 /* ViewController.m */; };
+		A3E951D51DE9327C001CA150 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E951D31DE9327C001CA150 /* Main.storyboard */; };
+		A3E951D71DE9327C001CA150 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3E951D61DE9327C001CA150 /* Assets.xcassets */; };
+		A3E951DA1DE9327C001CA150 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E951D81DE9327C001CA150 /* LaunchScreen.storyboard */; };
+		A3E951E41DE932D6001CA150 /* JXDrawingCircleProgressButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E951E31DE932D6001CA150 /* JXDrawingCircleProgressButton.m */; };
+		A3E951E71DE935E3001CA150 /* JXAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E951E61DE935E3001CA150 /* JXAdViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A3E951C71DE9327C001CA150 /* JXDrawingCircleProgressDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXDrawingCircleProgressDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E951CB1DE9327C001CA150 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3E951CD1DE9327C001CA150 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3E951CE1DE9327C001CA150 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3E951D01DE9327C001CA150 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3E951D11DE9327C001CA150 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3E951D41DE9327C001CA150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3E951D61DE9327C001CA150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3E951D91DE9327C001CA150 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3E951DB1DE9327C001CA150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3E951E21DE932D6001CA150 /* JXDrawingCircleProgressButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JXDrawingCircleProgressButton.h; path = JXDrawingCircleProgress/JXDrawingCircleProgressButton.h; sourceTree = "<group>"; };
+		A3E951E31DE932D6001CA150 /* JXDrawingCircleProgressButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JXDrawingCircleProgressButton.m; path = JXDrawingCircleProgress/JXDrawingCircleProgressButton.m; sourceTree = "<group>"; };
+		A3E951E51DE935E3001CA150 /* JXAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXAdViewController.h; sourceTree = "<group>"; };
+		A3E951E61DE935E3001CA150 /* JXAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXAdViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3E951C41DE9327C001CA150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3E951BE1DE9327C001CA150 = {
+			isa = PBXGroup;
+			children = (
+				A3E951E11DE93287001CA150 /* JXDrawingCircleProgress */,
+				A3E951C91DE9327C001CA150 /* JXDrawingCircleProgressDemo */,
+				A3E951C81DE9327C001CA150 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3E951C81DE9327C001CA150 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3E951C71DE9327C001CA150 /* JXDrawingCircleProgressDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3E951C91DE9327C001CA150 /* JXDrawingCircleProgressDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A3E951CD1DE9327C001CA150 /* AppDelegate.h */,
+				A3E951CE1DE9327C001CA150 /* AppDelegate.m */,
+				A3E951D01DE9327C001CA150 /* ViewController.h */,
+				A3E951D11DE9327C001CA150 /* ViewController.m */,
+				A3E951E51DE935E3001CA150 /* JXAdViewController.h */,
+				A3E951E61DE935E3001CA150 /* JXAdViewController.m */,
+				A3E951D31DE9327C001CA150 /* Main.storyboard */,
+				A3E951D61DE9327C001CA150 /* Assets.xcassets */,
+				A3E951D81DE9327C001CA150 /* LaunchScreen.storyboard */,
+				A3E951DB1DE9327C001CA150 /* Info.plist */,
+				A3E951CA1DE9327C001CA150 /* Supporting Files */,
+			);
+			path = JXDrawingCircleProgressDemo;
+			sourceTree = "<group>";
+		};
+		A3E951CA1DE9327C001CA150 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3E951CB1DE9327C001CA150 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3E951E11DE93287001CA150 /* JXDrawingCircleProgress */ = {
+			isa = PBXGroup;
+			children = (
+				A3E951E21DE932D6001CA150 /* JXDrawingCircleProgressButton.h */,
+				A3E951E31DE932D6001CA150 /* JXDrawingCircleProgressButton.m */,
+			);
+			name = JXDrawingCircleProgress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3E951C61DE9327C001CA150 /* JXDrawingCircleProgressDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3E951DE1DE9327C001CA150 /* Build configuration list for PBXNativeTarget "JXDrawingCircleProgressDemo" */;
+			buildPhases = (
+				A3E951C31DE9327C001CA150 /* Sources */,
+				A3E951C41DE9327C001CA150 /* Frameworks */,
+				A3E951C51DE9327C001CA150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXDrawingCircleProgressDemo;
+			productName = JXDrawingCircleProgressDemo;
+			productReference = A3E951C71DE9327C001CA150 /* JXDrawingCircleProgressDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3E951BF1DE9327C001CA150 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Heroic;
+				TargetAttributes = {
+					A3E951C61DE9327C001CA150 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A3E951C21DE9327C001CA150 /* Build configuration list for PBXProject "JXDrawingCircleProgressDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3E951BE1DE9327C001CA150;
+			productRefGroup = A3E951C81DE9327C001CA150 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3E951C61DE9327C001CA150 /* JXDrawingCircleProgressDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3E951C51DE9327C001CA150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E951DA1DE9327C001CA150 /* LaunchScreen.storyboard in Resources */,
+				A3E951D71DE9327C001CA150 /* Assets.xcassets in Resources */,
+				A3E951D51DE9327C001CA150 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3E951C31DE9327C001CA150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3E951D21DE9327C001CA150 /* ViewController.m in Sources */,
+				A3E951CF1DE9327C001CA150 /* AppDelegate.m in Sources */,
+				A3E951CC1DE9327C001CA150 /* main.m in Sources */,
+				A3E951E71DE935E3001CA150 /* JXAdViewController.m in Sources */,
+				A3E951E41DE932D6001CA150 /* JXDrawingCircleProgressButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3E951D31DE9327C001CA150 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3E951D41DE9327C001CA150 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3E951D81DE9327C001CA150 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3E951D91DE9327C001CA150 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3E951DC1DE9327C001CA150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3E951DD1DE9327C001CA150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3E951DF1DE9327C001CA150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JXDrawingCircleProgressDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heroic.JXDrawingCircleProgressDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3E951E01DE9327C001CA150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JXDrawingCircleProgressDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heroic.JXDrawingCircleProgressDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3E951C21DE9327C001CA150 /* Build configuration list for PBXProject "JXDrawingCircleProgressDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E951DC1DE9327C001CA150 /* Debug */,
+				A3E951DD1DE9327C001CA150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3E951DE1DE9327C001CA150 /* Build configuration list for PBXNativeTarget "JXDrawingCircleProgressDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E951DF1DE9327C001CA150 /* Debug */,
+				A3E951E01DE9327C001CA150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3E951BF1DE9327C001CA150 /* Project object */;
+}
