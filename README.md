@@ -15,9 +15,9 @@ JXDrawingCircleProgress is an open-source 'UIButton' subclass built to make a ci
 ```objective-c
 - (void)viewDidLoad
 {
-	[super viewDidLoad];
+    [super viewDidLoad];
     
-	_progressButton = [[JXDrawingCircleProgressButton alloc] initWithFrame:buttonFrame];
+    self.progressButton = [[JXDrawingCircleProgressButton alloc] initWithFrame:buttonFrame];
     _progressButton.lineWidth = 2.f;
     [_progressButton setTitle:@"Skip" forState:UIControlStateNormal];
     _progressButton.titleLabel.font = [UIFont systemFontOfSize:14.f];
