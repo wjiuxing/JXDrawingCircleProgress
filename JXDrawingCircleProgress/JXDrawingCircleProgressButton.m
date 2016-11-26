@@ -50,8 +50,6 @@
     pathAnimation.removedOnCompletion = YES;
     pathAnimation.delegate = self;
     [_progressLayer addAnimation:pathAnimation forKey:nil];
-    
-    _progressLayer.path = self.bezierPath.CGPath;
 }
 
 
@@ -111,6 +109,8 @@
         _progressLayer.lineCap = kCALineCapRound;
         _progressLayer.strokeColor = self.progressColor.CGColor ?: [UIColor grayColor].CGColor;
         _progressLayer.strokeStart = 0.f;
+        
+        _progressLayer.path = self.bezierPath.CGPath;
     }
     return _progressLayer;
 }

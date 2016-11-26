@@ -30,7 +30,7 @@
     [super viewDidAppear:animated];
     
     [_progressButton startProgressAnimationWithDuration:5 completionHandler:^(JXDrawingCircleProgressButton *progressButton) {
-        NSLog(@"The circle progress button completed animation");
+        NSLog(@"The circle progress button finished animation.");
         [self dismissViewControllerAnimated:YES completion:NULL];
     }];
 }
