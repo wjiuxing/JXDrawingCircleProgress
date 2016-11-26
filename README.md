@@ -3,19 +3,26 @@ JXDrawingCircleProgress is an open-source 'UIButton' subclass built to make a ci
 
 ![preview image](DemoPictures/Demo.gif)
 
-# Installation
+## Installation
+
+### CocoaPods
+JXDrawingCircleProgress is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile, and then import `<JXDrawingCircleProgress/JXDrawingCircleProgressButton.h>`:
+
+```ruby
+pod 'JXDrawingCircleProgress'
+```
 
 ### Manually
 
 1. Download the project and drop `JXDrawingCircleProgress` folder into your project;
 2. Import file `JXDrawingCircleProgressButton.h`.
 
-# How to use it
+## How to use
 
 ```objective-c
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+	[super viewDidLoad];
     
     self.progressButton = [[JXDrawingCircleProgressButton alloc] initWithFrame:buttonFrame];
     _progressButton.lineWidth = 2.f;
@@ -30,13 +37,13 @@ JXDrawingCircleProgress is an open-source 'UIButton' subclass built to make a ci
 - (void)someMethod
 {
     [_progressButton startProgressAnimationWithDuration:5.f completionHandler:^(JXDrawingCircleProgressButton *progressButton) {
-        NSLog(@"The circle progress button finished animation");
+        NSLog(@"The circle progress button finished animation.");
     }];
 }
 ```
 ## Author
 **Amos King** *email: wangjiuxing2010@hotmail.com*
 
-##License
+## License
 JXDrawingCircleProgress is released under MIT license. See LICENSE for details.
 
